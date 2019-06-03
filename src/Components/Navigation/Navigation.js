@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Button from "../Button";
 import "./Navigation.css";
 
@@ -8,13 +9,13 @@ const NavigationBar = props => {
       <nav>
         <li>Logo</li>
         <li>
-          <Button message="sign in" />
+          <Link to="/signin">Sign In</Link>
         </li>
         <li>
-          <Button message="register" />
+          <Link to={"/login"}>Log In</Link>
         </li>
         <li>
-          <Button message="about" />
+          <Link to={"/about"}>About</Link>
         </li>
       </nav>
     </div>
