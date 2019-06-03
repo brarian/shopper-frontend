@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Wishcard = props => {
   return (
-    <div class="border">
-      <p>price</p>
-      <img src="" alt="" />
-      <p>hours worked since adding</p>
+    <div>
+      <h3>Username: {props.home}</h3>
+      <h3>Email: {props.email}</h3>
+      <h3>Salary: {props.salary}</h3>
     </div>
   );
 };

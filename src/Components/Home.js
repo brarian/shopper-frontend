@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import Button from "./Button";
 const Home = props => {
   return (
     <div>
       <div>
-        <Button message="Log In" />
-        <Button message="Sign In" />
+        {/* <Button message="Log In" />
+        <Button message="Sign In" /> */}
       </div>
       <h1>Luxe Spend</h1>
       <h2>
